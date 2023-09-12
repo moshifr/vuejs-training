@@ -1,0 +1,24 @@
+{
+  "name": "formation-vue-node",
+  "version": "3.0.0",
+  "description": "Formation vue.js",
+  "authors": [
+    "MOHAMED BENJELLOUN <mohamed.benjelloun@atos.net>",
+    "QUENTIN TOMASICCHIO <quentin.tomasicchio@worldline.com>",
+    "SYLVAIN POLLET-VILLARD <sylvain.polletvillard@worldline.com>"
+  ],
+  "private": true,
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "node ./docs/deploy.js"
+  },
+  "dependencies": {
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-global-toc": "^1.1.0",
+    "vuepress-plugin-live": "^1.6.2"
+  },
+  "devDependencies": {
+    "shelljs": "^0.8.5"
+  }
+}
