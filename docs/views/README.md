@@ -127,7 +127,7 @@ Interpolation only works on textual content of elements. You can not use it to c
 
 The Vue project has been initiated with existing components and styles in `src/components` and `src/assets` folders. Feel free to have a look at them and remove these files if you want, you won't need them.
 
-1. Replace the CSS stylesheet that will serve as basis for all the practical work, downloadable here: [base.css](https://worldline.github.io/vuejs-training/base.css); it must be put it in the `src/assets` folder. Note how it is included in the project with `@import './assets/base.css'` in the `<style>` part of `App.vue`. You can remove the other existing styles.
+1. Replace the CSS stylesheet that will serve as basis for all the practical work, downloadable here: [base.css](https://github.com/moshifr/vuejs-training/base.css); it must be put it in the `src/assets` folder. Note how it is included in the project with `@import './assets/base.css'` in the `<style>` part of `App.vue`. You can remove the other existing styles.
 
 2. Create a new component `LoginForm.vue` containing the following authentication form:
 

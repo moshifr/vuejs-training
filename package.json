@@ -3,9 +3,7 @@
   "version": "3.0.0",
   "description": "Formation vue.js",
   "authors": [
-    "MOHAMED BENJELLOUN <mohamed.benjelloun@atos.net>",
-    "QUENTIN TOMASICCHIO <quentin.tomasicchio@worldline.com>",
-    "SYLVAIN POLLET-VILLARD <sylvain.polletvillard@worldline.com>"
+    "Minh THAI <moshi@moshi.fr>"
   ],
   "private": true,
   "scripts": {

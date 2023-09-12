@@ -14,10 +14,10 @@ Par convention, on code la logique applicative dans des fichiers JS appelés *se
 
 ## TP : Échanger avec un back-end
 
-Nous allons nous servir d'une API fournie par un serveur (le *back-end*) pour authentifier les utilisateurs et rechercher des films. Ce back-end a déjà été développé, vous pouvez clôner [le repo](https://github.com/worldline/vuejs-training-backend) et lancer l'API localement avec:
+Nous allons nous servir d'une API fournie par un serveur (le *back-end*) pour authentifier les utilisateurs et rechercher des films. Ce back-end a déjà été développé, vous pouvez clôner [le repo](https://github.com/moshifr/vuejs-training-backend) et lancer l'API localement avec:
 
 ```bash
-git clone https://github.com/worldline/vuejs-training-backend
+git clone https://github.com/moshifr/vuejs-training-backend
 cd ./vuejs-training-backend/
 npm install
 npm start
