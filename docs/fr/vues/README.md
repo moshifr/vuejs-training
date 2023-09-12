@@ -127,7 +127,7 @@ L'interpolation ne fonctionne que sur le contenu textuel des éléments. Vous ne
 
 Le projet Vue a été initialisé avec des composants et des styles existants dans les dossiers `src/components` et `src/assets`. Vous pouvez y jeter un oeil et les supprimer si vous le souhaitez, vous n'en aurez pas besoin.
 
-1. Remplacez la feuille de style CSS qui servira de base pour tout le TP, téléchargeable ici : [base.css](https://worldline.github.io/vuejs-training/base.css). Vous devez la placer dans le dossier `src/assets`. Notez comment elle est incluse dans le projet avec `@import './assets/base.css'` dans la partie `<style>` de `App.vue`. Vous pouvez supprimer les autres styles existants.
+1. Remplacez la feuille de style CSS qui servira de base pour tout le TP, téléchargeable ici : [base.css](https://github.com/moshifr/vuejs-training/base.css). Vous devez la placer dans le dossier `src/assets`. Notez comment elle est incluse dans le projet avec `@import './assets/base.css'` dans la partie `<style>` de `App.vue`. Vous pouvez supprimer les autres styles existants.
 
 2. Créer un nouveau composant `LoginForm.vue` contenant un formulaire d'authentification :
 
