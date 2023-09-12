@@ -6,6 +6,9 @@
 
 Installez [Node.js](https://nodejs.org/) (dernière version stable recommandée). Si vous devez gérer plusieurs versions différentes de Node.js sur la même machine, vous pouvez utiliser [nvm](https://github.com/creationix/nvm).
 
+### PHPStorm / WebStorm 
+Tout est déjà installé :).
+
 ### Visual Studio Code et Vetur/Volar
 
 Vous aurez besoin d'un bon éditeur de code pour JavaScript lors de cette formation.

@@ -51,7 +51,9 @@ Plusieurs syntaxes sont proposées pour assigner des classes ou des styles CSS :
 <p :style="{ fontSize: size }"></p>
 ```
 
-**Exercice : assignez une classe et une couleur à chaque fantôme**
+**Exercice : assignez une classe et une couleur à chaque fantôme en regardant le contenu de la feuille de style**
+
+[ghosts.css](https://raw.githubusercontent.com/moshifr/vuejs-training/main/docs/fr/directives/ghosts.css)
 
 ```vue live
 <template>
@@ -226,6 +228,28 @@ Ce n'est pas obligatoire mais aide Vue à mieux comprendre les changements qui s
 <!-- todos: [ { label: 'See list transitions', done: false },
               { label: 'Learn Vue', done: false },
               { label: 'Use v-for', done: true }, ... ] -->
+              <script>
+              
+<script>
+export default {
+    data(){
+        return {
+            todos: [
+              { label: 'See list transitions', done: false },
+              { label: 'Learn Vue', done: false },
+              { label: 'Use v-for', done: true }
+            ]
+        }
+    },
+    computed: {
+      todos_after_sort(){
+        return this.todos.sort((a,b) => +a.done - b.done)
+      }
+    }
+}
+</script>
+
+<template>
 <ul>
 <!-- la liste est ordonnée en mettant les tâches terminées à la fin -->
   <li v-for="(todo, index) in todos_after_sort" :key="todo.label">
@@ -236,6 +260,8 @@ Ce n'est pas obligatoire mais aide Vue à mieux comprendre les changements qui s
     - <i>{{todo.done ? "DONE !": "in progress..."}}</i>
   </li>
 </ul>
+
+</template>
 ```
 
 <v-for-example-2 />

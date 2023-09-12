@@ -57,14 +57,6 @@ span {
 
 La partie script du composant doit exporter par défaut un objet avec les propriétés du composant. On retrouve ici la propriété `data` qui spécifie les données initiales du composant. Les autres propriétés seront abordées dans la section Composants.
 
-::: tip
-D'après vous, pourquoi la propriété `data` d'un composant doit être une fonction ?
-
-[Réponse](https://fr.vuejs.org/v2/guide/components.html#data-doit-etre-une-fonction)
-
-Depuis Vue 3, l'option `data` n'accepte plus un objet JavaScript comme valeur.
-:::
-
 ## Travailler en composants
 
 Les composants Vue décrits précédemment constituent les briques avec lesquelles vous allez concevoir vos interfaces web. Une application web est composée de petits composants réutilisables, imbriqués dans des composants de plus haut niveau pour former le layout, l'agencement de vos éléments sur la page. Cette structure peut être décrite comme un **arbre de composants**.
@@ -127,7 +119,7 @@ L'interpolation ne fonctionne que sur le contenu textuel des éléments. Vous ne
 
 Le projet Vue a été initialisé avec des composants et des styles existants dans les dossiers `src/components` et `src/assets`. Vous pouvez y jeter un oeil et les supprimer si vous le souhaitez, vous n'en aurez pas besoin.
 
-1. Remplacez la feuille de style CSS qui servira de base pour tout le TP, téléchargeable ici : [base.css](https://github.com/moshifr/vuejs-training/base.css). Vous devez la placer dans le dossier `src/assets`. Notez comment elle est incluse dans le projet avec `@import './assets/base.css'` dans la partie `<style>` de `App.vue`. Vous pouvez supprimer les autres styles existants.
+1. Remplacez la feuille de style CSS qui servira de base pour tout le TP, téléchargeable ici : [base.css](https://raw.githubusercontent.com/moshifr/vuejs-training/main/base.css). Vous devez la placer dans le dossier `src/assets`. Notez comment elle est incluse dans le projet avec `@import './assets/base.css'` dans la partie `<style>` de `App.vue`. Vous pouvez supprimer les autres styles existants.
 
 2. Créer un nouveau composant `LoginForm.vue` contenant un formulaire d'authentification :
 
