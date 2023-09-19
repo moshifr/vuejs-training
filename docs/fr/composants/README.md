@@ -154,7 +154,7 @@ export default {
 <blog-post v-bind="article" />
 ```
 
-Facultativement, vous pouvez indiquer le type des props ou fournir des options de validation. Vue rejettera les valeurs non valides avec des messages d'erreur explicites, ce qui s'avère utile lorsque l'on utilise des composants d'origine tierce. Pour plus d'informations sur les options acceptées, [se référer à la documentation](https://vuejs.org/v2/guide/components-props.html).
+Facultativement, vous pouvez indiquer le type des props ou fournir des options de validation. Vue rejettera les valeurs non valides avec des messages d'erreur explicites, ce qui s'avère utile lorsque l'on utilise des composants d'origine tierce. Pour plus d'informations sur les options acceptées, [se référer à la documentation](https://vuejs.org/guide/components/props.html).
 
 ```vue
 <script>
